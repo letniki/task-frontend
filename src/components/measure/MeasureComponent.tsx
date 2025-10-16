@@ -1,6 +1,6 @@
 import React, {FC, useState} from 'react';
 import {IMeasureResponse} from "../../interfaces/measure/IMesureResponse";
-import {createMeasure, deleteMeasure, updateMeasure} from "../../services/measureService";
+import {deleteMeasure, updateMeasure} from "../../services/measureService";
 import {SubmitHandler, useForm} from "react-hook-form";
 
 interface IProps {

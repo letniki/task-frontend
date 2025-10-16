@@ -1,6 +1,6 @@
 import React, {FC, useState} from 'react';
 import {ITypeObjResponse} from "../../interfaces/typeObj/ITypeObjResponse";
-import {createTypeObj, deleteTypeObject, updateTypeObj} from "../../services/typeObjService";
+import {deleteTypeObject, updateTypeObj} from "../../services/typeObjService";
 import {SubmitHandler, useForm} from "react-hook-form";
 
 interface IProps {
